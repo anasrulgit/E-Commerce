@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce-fullstack",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:studio": "npx prisma studio",
+    "prisma:generate": "npx prisma generate",
+    "prisma:migrate": "npx prisma migrate dev"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.7.0",
+    "next": "14.0.4",
+    "prisma": "^5.7.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "25.0.3",
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
